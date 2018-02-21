@@ -1,0 +1,31 @@
+{
+  "name": "passport-twitter-auth-without-db",
+  "version": "0.0.1",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "CONSUMER_KEY=$CONSUMER_KEY CONSUMER_SECRET=$CONSUMER_SECRET USER_ID=$USER_ID node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arkadiusz-wieczorek/passport-twitter-auth-without-db.git"
+  },
+  "author": "Arkadiusz Wieczorek (kontakt@arkadiusz-wieczorek.pl)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/arkadiusz-wieczorek/passport-twitter-auth-without-db/issues"
+  },
+  "homepage": "https://github.com/arkadiusz-wieczorek/passport-twitter-auth-without-db#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "connect-ensure-login": "^0.1.1",
+    "cookie-parser": "^1.4.3",
+    "ejs": "^2.5.7",
+    "express": "^4.16.2",
+    "express-session": "^1.15.6",
+    "morgan": "^1.9.0",
+    "passport": "^0.4.0",
+    "passport-twitter": "^1.0.4"
+  }
+}
